@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="libraries\imgui\src\cpp\imgui_widgets.cpp">
+      <Filter>imgui\imgui cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\src\cpp\imgui_tables.cpp">
+      <Filter>imgui\imgui cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\src\cpp\imgui_impl_sdlrenderer2.cpp">
+      <Filter>imgui\imgui cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\src\cpp\imgui_impl_sdl2.cpp">
+      <Filter>imgui\imgui cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\src\cpp\imgui_draw.cpp">
+      <Filter>imgui\imgui cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\src\cpp\imgui_demo.cpp">
+      <Filter>imgui\imgui cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\src\cpp\imgui.cpp">
+      <Filter>imgui\imgui cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{359b4bed-0ba1-482b-a4fe-05df1015b835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\imgui cpp">
+      <UniqueIdentifier>{13f6be06-3341-464b-a5ae-b9482cdb2636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\imgui hpp">
+      <UniqueIdentifier>{318ed659-bd73-4b74-a473-7c5a48507245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8064060b-da09-4ae8-bc51-b7de1e0a7faa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\imgui\src\hpp\imconfig.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\src\hpp\imgui.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\src\hpp\imgui_impl_sdl2.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\src\hpp\imgui_impl_sdlrenderer2.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\src\hpp\imgui_internal.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\src\hpp\imstb_rectpack.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\src\hpp\imstb_textedit.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\src\hpp\imstb_truetype.h">
+      <Filter>imgui\imgui hpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
